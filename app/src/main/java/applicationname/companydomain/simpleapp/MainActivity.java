@@ -19,7 +19,8 @@ import com.spotify.sdk.android.player.SpotifyPlayer;
 public class MainActivity extends Activity implements
         SpotifyPlayer.NotificationCallback, ConnectionStateCallback
 {
-    private static final String CLIENT_ID = "974120fbc0d140a68ec3450e57a6d721";
+    // TODO: Input your own person client id
+    private static final String CLIENT_ID = "";
     private static final String REDIRECT_URI = "simpleapp://callback";
     private Player mPlayer;
     // Request code that will be used to verify if the result comes from correct activity
